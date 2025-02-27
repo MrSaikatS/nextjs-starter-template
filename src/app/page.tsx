@@ -1,7 +1,16 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home | Nextjs Starter Template",
+  description: "Hpme page of Nextjs Starter Template",
+};
+
 const page = () => {
   return (
     <>
-      <div className="">Nextjs Starter Template</div>
+      <div className="grid place-items-center h-[90dvh]">
+        <div className="">Nextjs Starter Template</div>
+      </div>
     </>
   );
 };
