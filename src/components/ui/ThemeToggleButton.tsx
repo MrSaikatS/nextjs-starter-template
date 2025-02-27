@@ -9,16 +9,16 @@ const ThemeToggleButton = () => {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="flex items-center"
+      className="h- flex items-center"
     >
       <Sun
-        size={24}
-        className="scale-100 dark:scale-0"
+        size={28}
+        className="scale-100 opacity-100 transition-all duration-300 dark:scale-0 dark:opacity-0"
       />
 
       <MoonStar
-        size={24}
-        className="absolute scale-0 dark:scale-100"
+        size={28}
+        className="absolute scale-0 opacity-0 transition-all duration-300 dark:scale-100 dark:opacity-100"
       />
     </button>
   );
