@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <div className="grid place-items-center h-[90dvh]">
+      <div className="grid h-[90dvh] place-items-center">
         <div className="">Nextjs Starter Template</div>
       </div>
     </>

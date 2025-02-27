@@ -10,11 +10,13 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html
       lang="en"
-      suppressHydrationWarning>
+      suppressHydrationWarning
+    >
       <body className="">
         <ThemeProvider
           attribute={"class"}
-          enableSystem={false}>
+          enableSystem={false}
+        >
           <Header />
 
           <main className="mx-auto max-w-screen-lg px-6 py-2">{children}</main>
