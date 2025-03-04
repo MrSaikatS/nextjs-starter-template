@@ -19,7 +19,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         >
           <Header />
 
-          <main className="mx-auto max-w-screen-lg px-6 py-2">{children}</main>
+          <main className="container mx-auto px-6 py-3">{children}</main>
         </ThemeProvider>
       </body>
     </html>
