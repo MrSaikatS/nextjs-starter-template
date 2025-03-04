@@ -1,6 +1,6 @@
 import Header from "@/components/Header/Header";
-import "./globals.css";
 import ThemeProvider from "@/components/ThemeProvider";
+import "./globals.css";
 
 type RootLayoutProps = Readonly<{
   children: React.ReactNode;
