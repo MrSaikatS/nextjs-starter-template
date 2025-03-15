@@ -8,18 +8,17 @@ type RootLayoutProps = Readonly<{
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html
-      lang="en"
-      suppressHydrationWarning
-    >
+    <html lang="en">
       <body className="">
         <ThemeProvider
           attribute={"class"}
           enableSystem={false}
         >
-          <Header />
+          <Header appName="Nextjs Starter Template" />
 
-          <main className="container mx-auto px-6 py-3">{children}</main>
+          <main className="container mx-auto px-6 py-3">
+            {children ? children : <p>Error loading content.</p>}
+          </main>
         </ThemeProvider>
       </body>
     </html>
