@@ -35,8 +35,5 @@
   },
   "author": "Saikat Sardar",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MrSaikatS/nextjs-starter-template/issues"
-  },
   "homepage": "https://github.com/MrSaikatS/nextjs-starter-template#readme"
 }

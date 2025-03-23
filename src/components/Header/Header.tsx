@@ -14,10 +14,7 @@ const Header = ({ appName }: { appName: string }) => {
           {appName}
         </h1>
 
-        <nav
-          className="flex items-center"
-          aria-label="Theme Toggle Navigation"
-        >
+        <nav className="flex items-center gap-2">
           <ThemeToggleButton />
         </nav>
       </div>

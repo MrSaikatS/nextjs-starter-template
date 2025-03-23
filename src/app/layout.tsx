@@ -16,9 +16,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         >
           <Header appName="Nextjs Starter Template" />
 
-          <main className="container mx-auto px-6 py-3">
-            {children ? children : <p>Error loading content.</p>}
-          </main>
+          <main className="container mx-auto px-6 py-3">{children}</main>
         </ThemeProvider>
       </body>
     </html>
