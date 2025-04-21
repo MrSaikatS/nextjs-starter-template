@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "rm -rf .next && next dev --turbopack",
     "build": "next lint && next build",
     "prestart": "next lint && next build",
     "start": "next start",
@@ -35,5 +35,5 @@
   },
   "author": "Saikat Sardar",
   "license": "MIT",
-  "homepage": "https://github.com/MrSaikatS/nextjs-starter-template#readme"
+  "homepage": "https://github.com/MrSaikatS/nextjs-starter-template"
 }
