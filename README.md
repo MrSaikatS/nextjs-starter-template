@@ -1,6 +1,6 @@
 # Nextjs Starter Template
 
-The Last Starter Template of Nextjs you will ever need.
+The Last Next.js starter template you will ever need.
 
 ## Tech
 
