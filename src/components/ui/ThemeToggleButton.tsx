@@ -9,8 +9,7 @@ const ThemeToggleButton = () => {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="flex cursor-pointer items-center"
-    >
+      className="flex cursor-pointer items-center">
       <Sun
         size={28}
         className="scale-100 opacity-100 transition-all duration-300 dark:scale-0 dark:opacity-0"

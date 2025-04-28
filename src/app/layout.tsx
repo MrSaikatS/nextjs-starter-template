@@ -7,14 +7,12 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html
       lang="en"
-      suppressHydrationWarning
-    >
+      suppressHydrationWarning>
       <body className="">
         <ThemeProvider
           attribute={"class"}
           defaultTheme="dark"
-          enableSystem={false}
-        >
+          enableSystem={false}>
           <Header appName="NST App" />
 
           <main className="container mx-auto px-6 py-3">{children}</main>
