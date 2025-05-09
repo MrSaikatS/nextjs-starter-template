@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "rm -rf .next && next dev --turbopack",
     "build": "next lint && next build",
-    "prestart": "next lint && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod": "rm -rf .next && next build && next start"
   },
   "dependencies": {
     "class-variance-authority": "0.7.1",
@@ -33,6 +33,9 @@
     "tw-animate-css": "1.2.9",
     "typescript": "5"
   },
+  "trustedDependencies": [
+    "unrs-resolver"
+  ],
   "author": "Saikat Sardar",
   "license": "MIT",
   "homepage": "https://github.com/MrSaikatS/nextjs-starter-template"
