@@ -6,6 +6,8 @@
     "pulkitgangwar.nextjs-snippets",
     "esbenp.prettier-vscode",
     "yoavbls.pretty-ts-errors",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "prisma.prisma"
   ]
 }
