@@ -1,5 +1,5 @@
 import Header from "@/components/Header/Header";
-import ThemeProvider from "@/components/ThemeProvider";
+import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { RootLayoutProps } from "@/lib/types";
 import "./globals.css";
 
