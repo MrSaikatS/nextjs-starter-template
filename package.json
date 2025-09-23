@@ -4,10 +4,10 @@
 	"private": true,
 	"scripts": {
 		"dev": "rimraf .next && next dev --turbopack",
-		"build": "next lint && next build",
+		"build": "eslint . && next build",
 		"start": "next start",
-		"lint": "next lint",
-		"prod": "rimraf .next && next lint && next build && next start"
+		"lint": "eslint .",
+		"prod": "rimraf .next && eslint . && next build && next start"
 	},
 	"dependencies": {
 		"class-variance-authority": "0.7.1",
