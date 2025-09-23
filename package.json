@@ -7,7 +7,7 @@
 		"build": "eslint . && next build",
 		"start": "next start",
 		"lint": "eslint .",
-		"prod": "rimraf .next && eslint . && next build && next start"
+		"prod": "rimraf .next && next build && next start"
 	},
 	"dependencies": {
 		"class-variance-authority": "0.7.1",
